@@ -5,8 +5,8 @@ backend:
 media_folder: "content/images"
 
 collections:
-  - name: "page"
-    label: "Page"
+  - name: "prepage"
+    label: "Pre-content page"
     folder: "content"
     create: true
     slug: "{{slug}}"
@@ -29,3 +29,64 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"} 
       - {label: "Images", name: "image", widget: "image", required: false}
+  - name: "eventpage"
+    label: "Events Page"
+    folder: "content/events"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Order", name: "order", widget: "number", value_type: "int"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"} 
+      - {label: "Images", name: "image", widget: "image", required: false}
+  - name: "uniformpage"
+    label: "Uniform Page"
+    folder: "content/uniform"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Order", name: "order", widget: "number", value_type: "int"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"} 
+      - {label: "Images", name: "image", widget: "image", required: false}
+  - name: "itpage"
+    label: "IT Systems Page"
+    folder: "content/it"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Order", name: "order", widget: "number", value_type: "int"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"} 
+      - {label: "Images", name: "image", widget: "image", required: false}
+  - name: "generalpage"
+    label: "General Page"
+    folder: "content/general"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Order", name: "order", widget: "number", value_type: "int"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"} 
+      - {label: "Images", name: "image", widget: "image", required: false}
+  - name: "supportpage"
+    label: "Support Page"
+    folder: "content/support"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Order", name: "order", widget: "number", value_type: "int"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"} 
+      - {label: "Images", name: "image", widget: "image", required: false}
+

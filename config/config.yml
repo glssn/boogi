@@ -1,28 +1,22 @@
 ---
 metadata:
-  name: BooGi
-  short_name: BooGi
-  description: BooGi - awesome GitBook-like documentation generator using Gatsby
+  name: New volunteer guide
+  short_name: Guide
+  description: New volunteer guide - welcome to Warwick University Unit
   language: en
   pathPrefix: "/"
   siteImage:
-  favicon: "/assets/favicon.png"
+  favicon: "/assets/favicon.ico"
   themeColor: "#ff0000"
 header:
   enabled: true
-  logo: "/assets/code.svg"
+  logo: "https://cdn.sanity.io/images/yp8m82ue/production/f9b858fd9bf2166dc40fd28f369c431fa9a01139-200x200.png"
   logoLink: "/"
   helpUrl: ""
   links:
-    - text: BooGi
-      link: https://github.com/filipowm/boogi
+    - text: Main site
+      link: https://warwickfirstaid.co.uk
       external: true
-    - text: Gatsby
-      link: https://www.gatsbyjs.org
-      external: true
-    - text: Docs
-      link: "/"
-      external: false
 sidebar:
   enabled: true
   # forcedNavOrder:
@@ -32,20 +26,23 @@ sidebar:
   # expanded:
   groups:
     - order: 1
-      path: "/gettingstarted"
-      title: ":rocket: Getting Started"
+      path: "/ourunit"
+      title: ":green_heart: Our Unit"
     - order: 2
-      path: "/configuration"
-      title: ":wrench: Configuration"
+      path: "/events"
+      title: ":ambulance: Events"
     - order: 3
-      path: "/editing"
-      title: ":writing_hand: Editing Content"
+      path: "/uniform"
+      title: ":shirt: Uniform"
     - order: 4
-      path: "/deployment"
-      title: ":rocket: Deployment"
+      path: "/it"
+      title: ":computer: IT Systems"
     - order: 5
-      path: "/developing"
-      title: ":computer: Developing"
+      path: "/general"
+      title: ":pushpin: General information"
+    - order: 6
+      path: "/support"
+      title: ":yellow_heart: Support"
   links:
     - text: BooGi
       link: https://github.com/filipowm/boogi
@@ -64,9 +61,8 @@ pwa:
     icon: "/assets/favicon.png"
 
 social:
-  github: https://github.com/filipowm/boogi
-  linkedin: https://www.linkedin.com/in/mateusz-filipowicz-437b4768/
-  twitter: twitter url
+  facebook: https://www.facebook.com/groups/warwickfirstaid
+  twitter: https://twitter.com/warwickfirstaid
 
 features:
   darkMode:
@@ -75,7 +71,7 @@ features:
   editOnRepo:
     location: https://github.com/filipowm/boogi 
     type: github
-    editable: true
+    editable: false
   mermaid:
     language: "mermaid"
     theme: "dark"
@@ -83,7 +79,7 @@ features:
     width: 400
     height: 300
   pageProgress:
-    enabled: true
+    enabled: false
     includePaths:
       - "/configuration/settingup/features"
     excludePaths:
@@ -96,7 +92,7 @@ features:
     arrowKeyNavigation: true
   propagateNetlifyEnv: true
   rss:
-    enabled: true
+    enabled: false
     title: BooGi Docs
     showIcon: false
     copyright: "2020, Mateusz Filipowicz"
@@ -130,7 +126,7 @@ features:
     show: true
     depth: 4
   fullScreenMode: 
-    enabled: true
+    enabled: false
     hideHeader: true
     hideToc: true
     hideSidebar: true

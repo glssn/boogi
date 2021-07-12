@@ -1,10 +1,10 @@
 module.exports = {
   metadata: {
-    name: 'BooGi',
-    short_name: 'BooGi',
+    name: 'New volunteer guide',
+    short_name: 'Guide',
     description: '',
     language: 'en',
-    url: 'http://localhost',
+    url: 'https://guide.warwickfirstaid.co.uk',
     pathPrefix: '/',
     gaTrackingId: null,
     siteImage: null,
@@ -12,7 +12,7 @@ module.exports = {
     themeColor: '#',
   },
   header: {
-    logo: '',
+	  logo: 'https://cdn.sanity.io/images/yp8m82ue/production/f9b858fd9bf2166dc40fd28f369c431fa9a01139-200x200.png',
     logoLink: '/',
     helpUrl: '',
     links: [],
@@ -54,7 +54,7 @@ module.exports = {
   },
   features: {
     editOnRepo: {
-      editable: true,
+      editable: false,
       location: 'https://github.com/filipowm/boogi',
       type: 'github',
     },
@@ -113,7 +113,7 @@ module.exports = {
       height: 300,
     },
     rss: {
-      enabled: true,
+      enabled: false,
       showIcon: true,
       title: 'My RSS feed',
       copyright: '',
