@@ -1,7 +1,7 @@
 ---
 title: Supplies
 order: 3
-draft: true
+draft: false
 ---
 The gases cupboard, one of our storage cupboards which is behind the SU building on campus, contains our first aid kits and additional stock, parkas, and of course medical gases.
 
