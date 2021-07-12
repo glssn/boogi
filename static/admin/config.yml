@@ -16,3 +16,16 @@ collections:
       - {label: "Order", name: "order", widget: "number", value_type: "int"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"} 
+      - {label: "Images", name: "image", widget: "image"}
+  - name: "ourunitpage"
+    label: "Our Unit Page"
+    folder: "content/ourunit"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Order", name: "order", widget: "number", value_type: "int"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"} 
+      - {label: "Images", name: "image", widget: "image"}
