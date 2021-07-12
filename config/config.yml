@@ -10,7 +10,7 @@ metadata:
   themeColor: "#ff0000"
 header:
   enabled: true
-  logo: "https://cdn.sanity.io/images/yp8m82ue/production/f9b858fd9bf2166dc40fd28f369c431fa9a01139-200x200.png"
+  logo: "/assets/favicon.png" 
   logoLink: "/"
   helpUrl: ""
   links:
