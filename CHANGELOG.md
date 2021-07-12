@@ -1,3 +1,7 @@
+## [2.0.10](https://github.com/glssn/boogi/compare/v2.0.9...v2.0.10) (2021-07-12)
+
+
+
 ## [2.0.9](https://github.com/glssn/boogi/compare/v2.0.8...v2.0.9) (2021-07-12)
 
 
