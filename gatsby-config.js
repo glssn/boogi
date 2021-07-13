@@ -96,12 +96,6 @@ const plugins = [
           options: { jargon: require('./src/utils/jargon-config.js') },
         },
         {
-          resolve: `gatsby-remark-embed-snippet`,
-          options: {
-            directory: `${__dirname}/snippets/`,
-          },
-        },
-        {
           resolve: `gatsby-remark-embedder`,
           options: {
             customTransformers: [
