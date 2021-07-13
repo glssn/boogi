@@ -57,7 +57,7 @@ sidebar:
     #    name: GatsbyJS
     #    link: https://www.gatsbyjs.org
 pwa:
-  enabled: true
+  enabled: false
   manifest:
     display: standalone
     crossOrigin: anonymous
