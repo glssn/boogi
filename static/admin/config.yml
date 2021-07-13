@@ -14,7 +14,7 @@ collections:
       - {label: "Title", name: "title", widget: "string" }
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Order", name: "order", widget: "number", value_type: "int"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"} 
       - {label: "Images", name: "image", widget: "image", required: false}
   - name: "ourunitpage"
@@ -26,7 +26,7 @@ collections:
       - {label: "Title", name: "title", widget: "string" }
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Order", name: "order", widget: "number", value_type: "int"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"} 
       - {label: "Images", name: "image", widget: "image", required: false}
   - name: "eventpage"
@@ -38,7 +38,7 @@ collections:
       - {label: "Title", name: "title", widget: "string" }
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Order", name: "order", widget: "number", value_type: "int"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"} 
       - {label: "Images", name: "image", widget: "image", required: false}
   - name: "uniformpage"
@@ -50,7 +50,7 @@ collections:
       - {label: "Title", name: "title", widget: "string" }
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Order", name: "order", widget: "number", value_type: "int"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Draft", name: "draft", widget: "boolean", defaut: false}
       - {label: "Body", name: "body", widget: "markdown"} 
       - {label: "Images", name: "image", widget: "image", required: false}
   - name: "itpage"
@@ -62,7 +62,7 @@ collections:
       - {label: "Title", name: "title", widget: "string" }
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Order", name: "order", widget: "number", value_type: "int"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"} 
       - {label: "Images", name: "image", widget: "image", required: false}
   - name: "generalpage"
@@ -74,7 +74,7 @@ collections:
       - {label: "Title", name: "title", widget: "string" }
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Order", name: "order", widget: "number", value_type: "int"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"} 
       - {label: "Images", name: "image", widget: "image", required: false}
   - name: "supportpage"
