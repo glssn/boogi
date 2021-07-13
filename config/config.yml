@@ -111,11 +111,12 @@ features:
   scrollTop: true
   search:
     enabled: true
-    engine: 'algolia'
-    indexName: "${AG_INDEX}"
-    algoliaAppId: "${AG_ID}"
-    algoliaSearchKey: "${AG_SEARCH}"
-    algoliaAdminKey: "${AG_ADMIN}"
+    engine: 'localsearch'
+      #indexName: "docs"
+      #indexName: "${AG_INDEX}"
+      #algoliaAppId: "${AG_ID}"
+      #algoliaSearchKey: "${AG_SEARCH}"
+      #algoliaAdminKey: "${AG_ADMIN}"
     placeholder: 'Search'
     startComponent: 'input' # icon
     excerptSize: 8000
