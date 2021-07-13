@@ -19,10 +19,13 @@ header:
       external: true
 sidebar:
   enabled: true
-  # forcedNavOrder:
-  #   - "/introduction"
-  #   - "/configuration/basic"
-  #   - "/configuration/advanced"
+  forcedNavOrder:
+    - "/ourunit"
+    - "/events"
+    - "/uniform"
+    - "/it"
+    - "/general"
+    - "/support"
   # expanded:
   groups:
     - order: 1
@@ -43,16 +46,16 @@ sidebar:
     - order: 6
       path: "/support"
       title: ":yellow_heart: Support"
-  links:
-    - text: BooGi
-      link: https://github.com/filipowm/boogi
-    - text: React
-      link: https://reactjs.org
+        #links:
+        #    - text: BooGi
+        #      link: https://github.com/filipowm/boogi
+        #    - text: React
+        #      link: https://reactjs.org
   ignoreIndex: false
-  poweredBy:
-    trademark: "/assets/gatsby.png"
-    name: GatsbyJS
-    link: https://www.gatsbyjs.org
+    #  poweredBy:
+    #    trademark: "/assets/gatsby.png"
+    #    name: GatsbyJS
+    #    link: https://www.gatsbyjs.org
 pwa:
   enabled: true
   manifest:
