@@ -112,10 +112,10 @@ features:
   search:
     enabled: true
     engine: 'algolia'
-    indexName: '${algolia_index}'
-    algoliaAppId: '${algolia_appid}'
-    algoliaSearchKey: '${algolia_search}'
-    algoliaAdminKey: '${algolia_admin}'
+    indexName: "${AG_INDEX}"
+    algoliaAppId: "${AG_ID}"
+    algoliaSearchKey: "${AG_SEARCH}"
+    algoliaAdminKey: "${AG_ADMIN}"
     placeholder: 'Search'
     startComponent: 'input' # icon
     excerptSize: 8000
