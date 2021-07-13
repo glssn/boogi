@@ -3,8 +3,6 @@ title: Who's who
 order: 1
 draft: false
 ---
-
-
 Every unit is run by a Unit Leadership Team (ULT). In our unit, this includes:
 
 * Unit Manager (who is also the President of the society), who oversees the unit’s day-to-day activity
@@ -18,4 +16,4 @@ Your ULT for 2021/22 are:
 
 * Unit Manager: Bethan Hewitt ([bethan.hewitt@sja.org.uk](mailto:bethan.hewitt@sja.org.uk))
 * Training Lead: Emma Cogswell ([emma.cogswell@sja.org.uk](mailto:emma.cogswell@sja.org.uk))
-* Events Lead: Tiago Dinares ([tiago.dinares@sja.org.uk](mailto:tiago.dinares@sja.org.uk))
+* Events Lead: Tiago Dinarés ([tiago.dinares@sja.org.uk](mailto:tiago.dinares@sja.org.uk))
