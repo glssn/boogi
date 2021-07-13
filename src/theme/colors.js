@@ -6,7 +6,7 @@ export default {
   // redLight: "#FCE7EE",
   redLight: '#FAD0DD',
   violet: '#A05EB5',
-  green: '#00965E',
+  green: '#008353',
   greenLight: '#D0EBE1',
   yellow: '#FFC72C',
   orange: '#ED8B00',
