@@ -112,6 +112,10 @@ features:
   search:
     enabled: true
     engine: 'algolia'
+    indexName: ${algolia_index}
+    algoliaAppId: ${algolia_appid}
+    algoliaSearchKey: ${algolia_search}
+    algoliaAdminKey: ${algolia_admin}
     placeholder: 'Search'
     startComponent: 'input' # icon
     excerptSize: 8000
