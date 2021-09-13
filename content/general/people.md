@@ -5,7 +5,7 @@ draft: false
 ---
 Other than the ULT, there are several people whose names or roles you may hear mentioned, and who you may need to contact or may contact you for various reasons. 
 
-**Regional Student Volunteering Officer (RSVO)**: Provides support to SJA student volunteers in Warwick and Coventry Universities, and helps to bridge the gap between student volunteers and the wider organisation. This is currently unfilled, but being temporarily covered by the Interim Regional Student Volunteering Lead, Katie Baker (katie.baker@sja.org.uk). 
+**Regional Student Volunteering Officer (RSVO)**: Provides support to SJA student volunteers in Warwick and Coventry Universities, and helps to bridge the gap between student volunteers and the wider organisation. This is currently unfilled, but being temporarily covered by the Interim Regional Student Volunteering Lead, Katie Baker ([katie.baker@sja.org.uk](mailto:katie.baker@sja.org.uk)). 
 
 **RSVO (Special Projects)**: The same as above, but with a focus on developing new projects related to student volunteering in the area. This is currently David Walters ([david.walters@sja.org.uk](mailto:david.walters@sja.org.uk)). 
 
